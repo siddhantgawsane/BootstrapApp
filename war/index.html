@@ -1,0 +1,167 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Bootstrap App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+    <div class="navbar" class="navbar-inverse">
+    <div class="navbar-inner">
+    <a class="brand" href="#">SG</a>
+    <ul class="nav">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Profile</a></li>
+    <li><a href="#">Messages</a></li>
+    </ul>
+	 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"><a href="#"><i class="icon-search"></i></a></span>
+<span class="icon-bar"><a href="#"><i class="icon-pencil"></i></a></span>
+<span class="icon-bar"><a href="#"><i class="icon-trash"></i></a></span>
+<span class="icon-bar"><a href="#"><i class="icon-ban-circle"></i></a></span>
+</a>
+ 
+<!-- Be sure to leave the brand out there if you want it shown -->
+<a class="brand" href="#">BootStrap App</a>
+ 
+<!-- Everything you want hidden at 940px or less, place within here -->
+<div class="nav-collapse collapse">
+<!-- .nav, .navbar-search, .navbar-form, etc -->
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+    <li><a tabindex="-1" href="#">Action</a></li>
+    <li><a tabindex="-1" href="#">Another action</a></li>
+    <li><a tabindex="-1" href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a tabindex="-1" href="#">Separated link</a></li>
+    </ul>
+</div>
+    </div>
+    </div>
+	<div class="container-fluid">
+    <div class="row-fluid">
+    <div class="span2">
+	
+    <!--Sidebar content-->
+	<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+        Hello!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        Hi!
+      </div>
+    </div>
+  </div>
+</div>
+<p>
+    <button class="btn btn-large btn-primary" type="button">Large button</button>
+    </p>
+    <p>
+    <button class="btn btn-info" type="button">Default button</button>
+    </p>
+    <p>
+    <button class="btn btn-small btn-success" type="button">Small button</button>
+    </p>
+    <p>
+    <button class="btn btn-mini btn-warning" type="button">Mini button</button>
+    </p>
+    </div>
+	<div class="span10">
+    <!--Body content-->
+	<div class="pagination">
+    <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">Next</a></li>
+    </ul>
+    </div>
+	<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+    <div class="active item"><img src="http://hidefwalls.com/wp-content/g/hd-2/lion_hd_wallpaper.jpg" height="600" width="1000"></img>
+	<h4>
+      First Thumbnail label
+    </h4><p>
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </p>
+	</div>
+    <div class="item"><img src="http://www.hdwallpaperspot.com/wp-content/uploads/2012/12/Guitar_and_ribbons_1280x960-hd-wallpaper.jpg" height="600" width="1000"></img>
+	<h4>
+      Second Thumbnail label
+    </h4><p>
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </p>
+	</div>
+    <div class="item"><img src="http://www.hdwallpapers3d.com/wp-content/uploads/Top-Hd-Wallpapers-2.jpg" height="600" width="1000"></img>
+	<h4>
+      Third Thumbnail label
+    </h4><p>
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </p>
+	</div>
+    <div class="item"><img src="http://www.wallng.com/images/2013/07/3d-hd-desktop-background-19201440-high-definition.jpg" height="600" width="1000"></img>
+	<h4>
+      Fourth Thumbnail label
+    </h4><p>
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </p>
+	</div>
+	</div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3 id="myModalLabel">Modal header</h3>
+</div>
+<div class="modal-body">
+<p>    <div class="hero-unit">
+    <h1>Hi</h1>
+    <p>I'm a Modal</p>
+    <p>
+    <a class="btn btn-primary btn-large">
+    Learn more
+    </a>
+    </p>
+    </div></p>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Ok</button>
+</div>
+</div>
+
+	</div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>
